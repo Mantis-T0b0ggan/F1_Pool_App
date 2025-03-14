@@ -4,7 +4,7 @@ import os
 
 # Supabase credentials
 SUPABASE_URL = os.getenv("https://synvlfkwthbsimipkxne.supabase.co")
-SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN5bnZsZmt3dGhic2ltaXBreG5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE5ODgxMjMsImV4cCI6MjA1NzU2NDEyM30.2ptXuZNuQ3Su0aMvEeL931IjPm9t1ruN_iNj7duzvuI")
+SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN5bnZsZmt3dGhic2ltaXBreG5lIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0MTk4ODEyMywiZXhwIjoyMDU3NTY0MTIzfQ.W71L51FzPXJ907DfKAqRCc7x1MnhD8HFj3SwvcrZVAE")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise ValueError("Missing Supabase environment variables")
