@@ -15,7 +15,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # Adjust based on your version
+<<<<<<< HEAD
+          python-version: '3.13'  # Adjust based on your version
+=======
+          python-version: '3.10'
+>>>>>>> 17f4127 (Add GitHub Action to update F1 drivers)
 
       - name: Install dependencies
         run: |
@@ -27,3 +31,7 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python fetch_f1_drivers.py
+<<<<<<< HEAD
+=======
+
+>>>>>>> 17f4127 (Add GitHub Action to update F1 drivers)
